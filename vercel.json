@@ -1,7 +1,7 @@
 {
-  "buildCommand": "cd api && pip install -r requirements.txt",
+  "buildCommand": "pip install -r requirements.txt",
   "functions": {
-    "api/*.py": {
+    "vercel-backend.py": {
       "runtime": "python3.9"
     }
   }
