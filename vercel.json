@@ -1,0 +1,7 @@
+{
+  "buildCommand": "pip install -r requirements.txt",
+  "devCommand": "python vercel-backend.py",
+  "env": {
+    "CLAUDE_API_KEY": "@claude_api_key"
+  }
+}
